@@ -1,0 +1,169 @@
+/* Estilos generales */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Verdana', sans-serif;
+}
+
+/* Fondo degradado de la página */
+body {
+    background: linear-gradient(120deg, #2e3192, #1bffff);
+    color: #eee;
+    line-height: 1.6;
+}
+
+/* Encabezado */
+header {
+    background: linear-gradient(90deg, #20232a, #3b3e44);
+    color: #f1f1f1;
+    padding: 1.5em 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.2em;
+    margin-bottom: 0.2em;
+}
+
+/* Barra de navegación */
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+nav ul li a {
+    color: #f1f1f1;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 18px;
+    border-radius: 3px;
+    transition: background 0.3s ease;
+}
+
+nav ul li a:hover {
+    background: #1bffff;
+    color: #20232a;
+}
+
+/* Contenido principal */
+main {
+    padding: 2em;
+}
+
+section {
+    margin-bottom: 1.8em;
+    padding: 1.2em;
+    background-color: rgba(255, 255, 255, 0.08);
+    border-radius: 8px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+}
+
+section h2 {
+    font-size: 1.8em;
+    color: #1bffff;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+section img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 1em;
+}
+
+ul {
+    list-style-type: square;
+    margin-left: 1.5em;
+}
+
+/* Formulario de contacto */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form label {
+    font-weight: bold;
+    color: #f1f1f1;
+}
+
+form input, form textarea {
+    padding: 0.8em;
+    border: 1px solid #555;
+    border-radius: 5px;
+    font-size: 1em;
+    background-color: #3b3e44;
+    color: #eee;
+}
+
+button {
+    background-color: #2e3192;
+    color: #fff;
+    padding: 0.8em;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #1bffff;
+    color: #20232a;
+}
+
+/* Pie de página */
+footer {
+    background-color: #20232a;
+    color: #f1f1f1;
+    text-align: center;
+    padding: 1.2em 0;
+    margin-top: 1em;
+}
+/* Estilos para la carátula */
+#caratula {
+    background-color: #d2db53;
+    padding: 30px;
+    margin: 20px 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.caratula-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 900px;
+    width: 100%;
+}
+
+.caratula-img {
+    width: 500px; /* Ajusta el tamaño de la imagen */
+    height: auto;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.datos-principales {
+    font-size: 1.2em;
+}
+
+.datos-principales h2 {
+    color: #333;
+}
+
+.datos-principales p {
+    margin: 10px 0;
+    color: #555;
+}
+
+.datos-principales strong {
+    color: #333;
+}
